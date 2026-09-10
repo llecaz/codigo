@@ -33,9 +33,9 @@ print(f"Preço: {Produto1.preco}")
 print(f"Estoque: {Produto1.estoque}")
 
 Produto2 = Produto2("Pasta de dente", 3.50, 4)
-print(f"Nome produto: {Produto1.nome} ")
-print(f"Preço: {Produto1.preco}")
-print(f"Estoque: {Produto1.estoque}")
+print(f"Nome produto: {Produto2.nome} ")
+print(f"Preço: {Produto2.preco}")
+print(f"Estoque: {Produto2.estoque}")
 
 
 # TERCEIRO EXERCÍCIO
