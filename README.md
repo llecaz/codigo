@@ -6,8 +6,6 @@ class Pessoa:
         self.nome = nome
         self.idade = idade
 
-
-
 pessoa = Pessoa("Maria", 16)
 print(pessoa.nome)
 
