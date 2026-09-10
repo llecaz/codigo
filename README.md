@@ -57,4 +57,43 @@ if nota >= 6:
 
 else:
  print("reprovado")
-  
+
+# QUARTO EXERCÍCIO
+
+class retangulo:
+
+  def __init__(self, largura, altura):
+        self.largura = largura
+        self.altura = altura
+
+  def calcular_perimetro(self, largura, altura):
+        return  2 * (self.largura + self.altura)
+
+retangulo = retangulo(5,10)
+perimetro = retangulo.calcular_perimetro(2, 5)
+
+print(f"largura: {retangulo.largura}")
+print(f"altura: {retangulo.altura}")
+print(f"perimetro: {perimetro}")
+
+# QUINTO EXERCÍCIO
+
+class conta_bancaria:
+  def __init__(self, saldo):
+    self.__saldo = saldo
+
+  def depositar(self, valor):
+    if valor > 0:
+      self.__saldo += valor
+      print(f"Depositado {valor} com sucesso.")
+    else:
+      print("Valor inválido")
+
+  def consultar(self):
+    return self.__saldo
+
+conta = conta_bancaria(0)
+deposito = float(input("Valor a depositar: "))
+conta.depositar(deposito)
+
+print(f"Valor da conta: {conta.consultar()}")
