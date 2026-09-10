@@ -1,4 +1,4 @@
-PRIMEIRO EXERCÍCIO PYTHON
+# PRIMEIRO EXERCÍCIO PYTHON
 
 class Pessoa:
 
@@ -11,14 +11,34 @@ class Pessoa:
 pessoa = Pessoa("Maria", 16)
 print(pessoa.nome)
 
-SEGUNDO EXERCÍCIO
+# SEGUNDO EXERCÍCIO
+
+class Produto1:
+
+    def __init__(self, nome, preco, estoque):
+        self.nome = nome
+        self.preco = preco
+        self.estoque = estoque
+      
+class Produto2:
+
+    def __init__(self, nome, preco, estoque):
+        self.nome = nome
+        self.preco = preco
+        self.estoque = estoque
+      
+Produto1 = Produto1("Escova de dente", 3.50, 3)
+print(f"Nome produto: {Produto1.nome} ")
+print(f"Preço: {Produto1.preco}")
+print(f"Estoque: {Produto1.estoque}")
+
+Produto2 = Produto2("Pasta de dente", 3.50, 4)
+print(f"Nome produto: {Produto1.nome} ")
+print(f"Preço: {Produto1.preco}")
+print(f"Estoque: {Produto1.estoque}")
 
 
-
-
-
-
-TERCEIRO EXERCÍCIO
+# TERCEIRO EXERCÍCIO
 
 class Aluno:
 
