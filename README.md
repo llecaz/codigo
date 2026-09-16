@@ -1,5 +1,6 @@
 # PRIMEIRO EXERCÍCIO EM PYTHON!!
 
+```python
 class Pessoa:
 
     def __init__(self, nome, idade):
@@ -8,9 +9,11 @@ class Pessoa:
 
 pessoa = Pessoa("Maria", 16)
 print(pessoa.nome)
+```
 
 # SEGUNDO EXERCÍCIO
 
+```python
 class Produto1:
 
     def __init__(self, nome, preco, estoque):
@@ -34,10 +37,11 @@ Produto2 = Produto2("Bolacha Salgada", 3.50, 10)
 print(f"Nome produto: {Produto2.nome} ")
 print(f"Preço: {Produto2.preco}")
 print(f"Estoque: {Produto2.estoque}")
-
+```
 
 # TERCEIRO EXERCÍCIO
 
+```python
 class Aluno:
 
     def __init__(self, nome, nota):
@@ -55,9 +59,11 @@ if nota >= 6:
 
 else:
  print("reprovado")
+```
 
 # QUARTO EXERCÍCIO
 
+```
 class retangulo:
 
   def __init__(self, largura, altura):
@@ -73,9 +79,11 @@ perimetro = retangulo.calcular_perimetro(2, 5)
 print(f"largura: {retangulo.largura}")
 print(f"altura: {retangulo.altura}")
 print(f"perimetro: {perimetro}")
+```
 
 # QUINTO EXERCÍCIO
 
+```python
 class conta_bancaria:
   def __init__(self, saldo):
     self.__saldo = saldo
@@ -95,3 +103,4 @@ deposito = float(input("Valor a depositar: "))
 conta.depositar(deposito)
 
 print(f"Valor da conta: {conta.consultar()}")
+```
