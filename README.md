@@ -25,12 +25,12 @@ class Produto2:
         self.preco = preco
         self.estoque = estoque
       
-Produto1 = Produto1("Escova de dente", 4.99, 3)
+Produto1 = Produto1("Chocolate", 5.00, 12)
 print(f"Nome produto: {Produto1.nome} ")
 print(f"Preço: {Produto1.preco}")
 print(f"Estoque: {Produto1.estoque}")
 
-Produto2 = Produto2("Pasta de dente", 3.50, 4)
+Produto2 = Produto2("Bolacha Salgada", 3.50, 10)
 print(f"Nome produto: {Produto2.nome} ")
 print(f"Preço: {Produto2.preco}")
 print(f"Estoque: {Produto2.estoque}")
