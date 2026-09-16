@@ -24,7 +24,7 @@ pessoa = Pessoa("Maria", 16)
 print(pessoa.nome)
 ```
 
-# SEGUNDO EXERCÍCIO.
+#* SEGUNDO EXERCÍCIO.
 
 ```python
 class Produto1:
@@ -52,7 +52,7 @@ print(f"Preço: {Produto2.preco}")
 print(f"Estoque: {Produto2.estoque}")
 ```
 
-# TERCEIRO EXERCÍCIO.
+## TERCEIRO EXERCÍCIO.
 
 ```python
 class Aluno:
@@ -74,7 +74,7 @@ else:
  print("reprovado")
 ```
 
-# QUARTO EXERCÍCIO.
+## QUARTO EXERCÍCIO.
 
 ```
 class retangulo:
@@ -94,7 +94,7 @@ print(f"altura: {retangulo.altura}")
 print(f"perimetro: {perimetro}")
 ```
 
-# QUINTO EXERCÍCIO.
+## QUINTO EXERCÍCIO.
 
 ```python
 class conta_bancaria:
